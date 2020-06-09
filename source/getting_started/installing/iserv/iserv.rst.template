@@ -1,0 +1,47 @@
+Installation in IServ
+=====================
+
+Vorüberlegungen
+---------------
+
+sphairas kann als Docker Container innerhalb des IServ installiert werden. Die Einbindung in das bestehende System ist flexibel, wobei darauf zu achten ist, dass es nicht zu Funktionsstörungen kommt. 
+
+sphairas belegt in der hier vorgestellten Installationsvariante drei Ports, die über das Docker Portmapping variable einstellbar sind. Wenn Ports durch andere IServ-Dienste oder -Anwendungen belegt sein sollten, können andere Nummern gewählt werden. 
+
+Port ``9090`` wird hier für die Anbindung an das Web-Interface verwendet. Dieser Port wird nur intern verwendet und benötigt keine weiteren Firewall-Einstellungen. 
+
+Zwei weitere Ports werden für die Kommunikation der Administrations-Clients mit dem Server gebraucht. Diese müssen von außen erreichbar sein, wobei vorab für die Firewall-Einstellungen zu klären ist, aus welchen Netzwerken diese Ports erreichbar sein sollen. 
+
+Installation
+------------
+
+Alle Schritte müssen an der Konsole mit mit root-Rechten durchgeführt werden. 
+
+    #. Installation von Docker Compose:
+
+       .. code-block:: bash
+       
+         curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+         chmod +x /usr/local/bin/docker-compose
+
+    #. Anlegen einer Konfigurationsdatei für Docker Compose, hier `docker-compose.yml` im Home-Verzeichnis von Root.
+
+       .. literalinclude:: /assets/iserv-install-docker-compose.yml
+         :language: yaml 
+
+    #. Docker Container
+
+    #. Environment
+
+    #. Apache
+
+    #. Firewall
+
+Anbindung eines Clients
+-----------------------
+
+Troubleshooting
+---------------
+
+Updates
+-------

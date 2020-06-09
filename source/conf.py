@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'user-manual'
+project = u'sphairas Benutzerhandbuch'
 copyright = u'2020, Boris Heithecker'
 author = u'Boris Heithecker'
 
@@ -59,6 +59,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
+#language = None
 language = u'de'
 
 # List of patterns, relative to source directory, that match files and
@@ -102,7 +103,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'user-manualdoc'
+htmlhelp_basename = 'sphairas-user-manualdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,7 +130,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'user-manual.tex', u'user-manual Documentation',
+    (master_doc, 'sphairas-user-manual.tex', u'sphairas-user-manual Documentation',
      u'Boris Heithecker', 'manual'),
 ]
 
@@ -139,7 +140,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'user-manual', u'user-manual Documentation',
+    (master_doc, 'sphairas-user-manual', u'sphairas-user-manual Documentation',
      [author], 1)
 ]
 
@@ -150,8 +151,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'user-manual', u'user-manual Documentation',
-     author, 'user-manual', 'One line description of project.',
+    (master_doc, 'sphairas-user-manual', u'sphairas-user-manual Documentation',
+     author, 'sphairas-user-manual', 'One line description of project.',
      'Miscellaneous'),
 ]
 
