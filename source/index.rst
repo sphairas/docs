@@ -3,21 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Willkommen zum Benutzerhandbuch von sphairas!
-=============================================
+==========================================
+Willkommen zur Dokumentation von sphairas!
+==========================================
 
 Das Projekt *sphairas* ist eine Zensurenverwaltung mit Weboberfläche für die Zensureneingabe und die Erstellung von Zeugnissen und Kurslisten.
 
 Dieses Benutzerhandbuch ist im Aufbau begriffen.
 
 .. toctree::
+   :caption: Überblick
    :hidden:
+   :maxdepth: 3
+   :numbered:
 
-   /getting_started/set_up/client.rst
-   /getting_started/set_up/basic-import.rst
-   /getting_started/set_up/rcp-intro.rst
+   /introduction/index
 
-.. /getting_started/installing/iserv/iserv.rst
+.. toctree::
+   :caption: Anleitungen
+   :hidden:
+   :maxdepth: 3
+   :numbered:
+
+   /getting_started/set_up/client
+   /getting_started/set_up/basic-import
+   /getting_started/set_up/rcp-intro
+
+.. Erweiterungen
+
+.. Schnittstellen / API
+
+.. Datenverarbeitung / TOMs
 
 Indices and tables
 ==================

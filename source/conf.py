@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'sphairas Benutzerhandbuch'
+project = u'sphairas Dokumentation'
 copyright = u'2020, Boris Heithecker'
 author = u'Boris Heithecker'
 
@@ -105,6 +105,13 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphairas-user-manualdoc'
 
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
+
+html_logo = "_static/images/logo.svg"
 
 # -- Options for LaTeX output ------------------------------------------------
 
