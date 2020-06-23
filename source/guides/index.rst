@@ -5,4 +5,5 @@ Kursverwaltung
    :maxdepth: 3
    :numbered:
 
+   targets
    tickets
