@@ -14,7 +14,7 @@ Dieses Benutzerhandbuch ist im Aufbau begriffen.
 .. toctree::
    :caption: Überblick
    :hidden:
-   :maxdepth: 3
+   :maxdepth: 2
    :numbered:
 
    /introduction/index
@@ -22,12 +22,14 @@ Dieses Benutzerhandbuch ist im Aufbau begriffen.
 .. toctree::
    :caption: Anleitungen
    :hidden:
-   :maxdepth: 3
+   :maxdepth: 2
    :numbered:
 
    /getting_started/set_up/client
    /getting_started/set_up/basic-import
    /getting_started/set_up/rcp-intro
+
+   /guides/index
 
 .. Erweiterungen
 
