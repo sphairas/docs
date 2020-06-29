@@ -8,4 +8,5 @@ Kursverwaltung
    targets
    reportData
    reportDates
-   tickets   signees
+   tickets   
+   signees
