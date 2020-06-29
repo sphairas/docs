@@ -6,5 +6,6 @@ Kursverwaltung
    :numbered:
 
    targets
-   tickets
-   signees
+   reportData
+   reportDates
+   tickets   signees
