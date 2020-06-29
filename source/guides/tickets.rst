@@ -1,5 +1,5 @@
-Berechtigungen
---------------
+Eingabeberechtigungen
+---------------------
 
 Um Listen für die Eingabe im Webinterface zu öffnenn und wieder zu schließen, müssen entsprechende Berechtigungen angelegt werden. Ohne gültige Berechtigungen können Unterzeichner/Lehrkräfte ihre Listen im Webinterface nur einsehen, jedoch keine Eintragungen vornehmen. 
 
