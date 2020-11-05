@@ -25,9 +25,9 @@ Dieses Benutzerhandbuch ist im Aufbau begriffen.
    :maxdepth: 2
    :numbered:
 
-   /getting_started/set_up/client
-   /getting_started/set_up/basic-import
-   /getting_started/set_up/rcp-intro
+   /getting_started/client
+   /getting_started/basic-import
+   /getting_started/rcp-intro
    /guides/index
 
 .. Erweiterungen
