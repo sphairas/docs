@@ -41,9 +41,6 @@ Klassenberechtigung
 
 Im Fenster "Kursmappen" wird durch Rechtsklick auf die Klasse das Kontextmenü geöffnet und dann "Neue Berechtigung" ausgeführt. Der erste Schritt des Dialogs kann hier übersprungen werden. Im nächsten Schritt können optional einzelne Schülerinnen/Schüler der Klasse ausgewählt werden, für die die Berechtigung *nicht* gelten soll. Für diese Schüler/Schülerinnen können dann keine Eintragungen vorgenommen werden. 
 
-.. Important::
-    Damit eine Klassenberechtigung vollständig angelegt werden kann, muss (zur Zeit noch) die Klassenansicht zunächst vollständig geöffnet werden. 
-
 Als letztes wird im Dialog der :ref:`Löschtermin festgelegt<set-ticket-event>`. 
 
 ​Listenberechtigung
