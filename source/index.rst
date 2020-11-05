@@ -27,7 +27,7 @@ Dieses Benutzerhandbuch ist im Aufbau begriffen.
 
    /getting_started/client
    /getting_started/basic-import
-   /getting_started/rcp-intro
+   /getting_started/rcp-intro/index
    /guides/index
 
 .. Erweiterungen
