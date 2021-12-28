@@ -19,9 +19,16 @@ Die Anordnung und Sichtbarkeit der vorhandenen Bemerkungen in der Weboberfläche
 
 Die Struktur der Bemerkungen in der Weboberfläche ist in Abschnitte gegliedert. Die Reihenfolge der Abschnitte bestimmt die Reihenfolge der Bemerkungen im Zeugnis. Sowohl die Abschnitte als auch die Bemerkungen können verschoben und (Rechtsklick) gelöscht werden. 
 
-Für jeden Abschnitt kann (über Rechtsklick und "Einstellungen") festgelegt werden, ob eine Mehrfachauswahl der Bemerkungen in dem Abschnitt möglich ist und ob die Auswahl obligatorisch ist. 
-
 Aus der Palette (rechts) können neue Bemerkungen in die Struktur hineingezogen werden. Zur Auswahl stehen zwei Kategorien von Bemerkungen: Standard-Zeugnisbemerkungen für das Bundesland und die schuleigenen Bemerkungen. 
+
+Für jeden Abschnitt kann (über Rechtsklick und "Einstellungen") festgelegt werden, ob eine Mehrfachauswahl der Bemerkungen in dem Abschnitt möglich ist oder nur eine Bemerkung des Abschnitts ausgewählt werden kann. Falls nur eine Bemerkung des Abschnitts ausgewählt werden kann, kann optional eingestellt werden, dass eine der vorgegebenen Bemerkungen obligatorisch auszuwählen ist (und damit einer der Bemerkungen des Abschnitts im Zeugnis erscheinen muss).
+
+.. image:: /_static/images/ksnip_20211228-095317.png
+    :width: 328px
+    :align: center
+    :alt: Zeugnisbemerkungen Einstellungen
+
+Außerdem kann über diesen Dialog der Name des Abschnitts geändert werden. 
 
 Änderungen müssen unbedingt gespeichert werden. 
 
